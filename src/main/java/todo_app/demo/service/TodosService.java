@@ -54,6 +54,7 @@ public class TodosService {
                 );
 } catch (Exception e) {
     System.out.println("Email failed");
+    e.printStackTrace();
 }
         
 
@@ -91,6 +92,7 @@ public class TodosService {
                 );
             } catch (Exception e) {
                 System.out.println("Email failed");
+                e.printStackTrace();
             }
         }
 
@@ -148,6 +150,7 @@ public class TodosService {
             );
              } catch (Exception e) {
         System.out.println("Email failed");
+        e.printStackTrace();
     }
 }
 
