@@ -7,7 +7,7 @@ import todo_app.demo.service.TodosService;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:5174")
+@CrossOrigin(origins = "https://todo-notifier-frontend.vercel.app")
 @RestController
 @RequestMapping("/todos")
 public class TodosController {

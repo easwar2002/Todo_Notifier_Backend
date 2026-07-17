@@ -7,7 +7,7 @@ import todo_app.demo.service.UsersService;
 import java.util.List;
 
 
-@CrossOrigin(origins = "http://localhost:5174")
+@CrossOrigin(origins = "https://todo-notifier-frontend.vercel.app")
 @RestController
 @RequestMapping("/users")
 public class UsersController {
